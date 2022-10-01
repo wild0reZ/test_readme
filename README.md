@@ -57,27 +57,26 @@ __TENANT__ is a software that allows you to **simplify** the following operation
 
 ### Prerequisites
 
-* [Python](https://python.org) version 3.x and pip
 * A linux distribution (Ubuntu 18.04 has been used for running the software and testing it)
+* [Python](https://python.org) 3.x and pip
 * Virtualenv (**not required but recommended**)
-  ```sh
-  pip install virtualenv
-  ```
 
 ### Installation and Run
 
 In order to run the software, follow the instructions below
 
-1. Clone the repo and cd into the folder
+1. Clone the repo and move into the folder
    ```sh
    git clone https://github.com/pstlab/TENANT_sa.git
    cd ./TENANT_sa
    ```
 2. Create a virtual environment with virtualenv and activate it (**only if you want use virtualenv**)
    ```sh
+   python -m pip install virtualenv
    python -m venv env
-   source ./env/bin/activate 
+   source ./env/bin/activate
    ```
+   1. To **deactivate** the virtual environment use the command `deactivate`
 3. Install the requirements contained in `requirements.txt`
    ```sh
    python -m pip install -r ./requirements.txt
@@ -87,7 +86,8 @@ In order to run the software, follow the instructions below
    python ./init_db.py
    python ./run.py
    ```
-A local server will be started at `http://127.0.0.1:5000/`.  
+A local server will be started at `http://127.0.0.1:5000/`.
+Open to the following address with any browser to use the software.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
