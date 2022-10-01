@@ -38,7 +38,7 @@
 
 ![TENANT Home](img/Home.png)
 
-Tool fostEriNg Ai plaNning in roboTics Stand-Alone (__TENANT__) is a general purpose software tool that can be deployed for addressing multiple applications/domains and can be easily integrated with other knowledge engineering tools such as, e.g., ROS-TiPlEx and Planning and Scheduling software framework, e.g., PLATINUm.
+Tool fostEriNg Ai plaNning in roboTics Stand-Alone (__TENANT__) is a general purpose software tool that can be deployed for addressing multiple applications/domains and can be easily integrated with other knowledge engineering tools such as, e.g., ROS-TiPlEx and Planning and Scheduling software framework, e.g., [PLATINUm](https://github.com/pstlab/PLATINUm).
 
 ### Built With
 
@@ -58,7 +58,7 @@ __TENANT__ is a software that allows you to **simplify** the following operation
 
 * A linux distribution (**Ubuntu 18.04** has been used for running and testing the software)
 * [Python 3](https://python.org) and pip
-* Virtualenv (**not required but recommended**)
+* [Virtualenv](https://virtualenv.pypa.io/en/latest/) (**not required but recommended**)
 
 ### Installation and Run
 
