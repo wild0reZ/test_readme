@@ -26,10 +26,10 @@
       </ul>
     </li>
     <li>
-      <a href="#gallery">Images</a>
+      <a href="#roadmap">Roadmap</a>
     </li>
     <li>
-      <a href="#roadmap">Roadmap</a>
+      <a href="#gallery">Images</a>
     </li>
   </ol>
 </details>
@@ -90,15 +90,15 @@ Open to the following address with any browser to use the software.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Gallery
-
-<img src="img/Resources_full.png" width="23%"></img> <img src="img/Resource_add.png" width="23%"></img> <img src="img/Res_hw.png" width="23%"></img> <img src="img/Res_cobot.png" width="23%"></img> <img src="img/Products.png" width="23%"></img> <img src="img/Process.png" width="23%"></img> <img src="img/Demands.png" width="23%"></img> 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Roadmap
 
 - [ ] Aggiungere cose alla roadmap :P
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Gallery
+
+<img src="img/Resources_full.png" width="23%"></img> <img src="img/Resource_add.png" width="23%"></img> <img src="img/Res_hw.png" width="23%"></img> <img src="img/Res_cobot.png" width="23%"></img> <img src="img/Products.png" width="23%"></img> <img src="img/Process.png" width="23%"></img> <img src="img/Demands.png" width="23%"></img> 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
