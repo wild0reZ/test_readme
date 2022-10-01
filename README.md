@@ -24,8 +24,11 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#installation-and-run">Installation and Run</a></li>
       </ul>
+    </li>
+    <li>
+      <a href="#roadmap">Roadmap</a>
     </li>
   </ol>
 </details>
@@ -33,16 +36,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+![TENANT Home](img/Home.png)
+
 Tool fostEriNg Ai plaNning in roboTics Stand-Alone (__TENANT__) is a general purpose software tool that can be deployed for addressing multiple applications/domains and can be easily integrated with other knowledge engineering tools such as, e.g., ROS-TiPlEx and Planning and Scheduling software framework, e.g., PLATINUm.
 
 ### Built With
 
-This software is built using:
-
-* [![Python][Python-shield]][Python-url]
-* [![Flask][Flask-shield]][Flask-url]
-* [![Jinja][Jinja-shield]][Jinja-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+[![Python][Python-shield]][Python-url] [![Flask][Flask-shield]][Flask-url] [![Jinja][Jinja-shield]][Jinja-url] [![JQuery][JQuery.com]][JQuery-url] [![SQLite][SQLite-shield]][SQLite-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -57,8 +57,8 @@ __TENANT__ is a software that allows you to **simplify** the following operation
 
 ### Prerequisites
 
-* A linux distribution (Ubuntu 18.04 has been used for running the software and testing it)
-* [Python](https://python.org) 3.x and pip
+* A linux distribution (**Ubuntu 18.04** has been used for running and testing the software)
+* [Python 3](https://python.org) and pip
 * Virtualenv (**not required but recommended**)
 
 ### Installation and Run
@@ -76,7 +76,7 @@ In order to run the software, follow the instructions below
    python -m venv env
    source ./env/bin/activate
    ```
-   1. To **deactivate** the virtual environment use the command `deactivate`
+   * To **deactivate** the virtual environment use the command `deactivate`
 3. Install the requirements contained in `requirements.txt`
    ```sh
    python -m pip install -r ./requirements.txt
@@ -91,7 +91,16 @@ Open to the following address with any browser to use the software.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ROADMAP -->
+## Roadmap
+
+- [ ] Aggiungere cose alla roadmap :P
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- MARKDOWN LINKS & IMAGES -->
+[SQLite-shield]: https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white
+[SQLite-url]: https://www.sqlite.org/
 [Flask-shield]: https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white
 [Flask-url]: https://flask.palletsprojects.com/en/2.2.x/
 [Jinja-shield]: https://camo.githubusercontent.com/bf9a5122ae18817a5a34fad613bde9d31a53e1589ae8f960003c13136c59ff96/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d4a696e6a6126636f6c6f723d423431373137266c6f676f3d4a696e6a61266c6f676f436f6c6f723d464646464646266c6162656c3d
@@ -99,4 +108,4 @@ Open to the following address with any browser to use the software.
 [Python-shield]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://python.org
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[JQuery-url]: https://jquery.com
