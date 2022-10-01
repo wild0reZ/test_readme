@@ -1,6 +1,5 @@
 <a name="readme-top"></a>
 
-<!-- LOGO DEL PROGETTO -->
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
@@ -10,15 +9,11 @@
   <h3 align="center">TENANT - Tool fostEriNg Ai plaNning in roboTics Stand-Alone</h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#gallery">Images</a></li>
-      </ul>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -31,23 +26,19 @@
       </ul>
     </li>
     <li>
+      <a href="#gallery">Images</a>
+    </li>
+    <li>
       <a href="#roadmap">Roadmap</a>
     </li>
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 ![TENANT Home](img/Home.png)
 
 Tool fostEriNg Ai plaNning in roboTics Stand-Alone (__TENANT__) is a general purpose software tool that can be deployed for addressing multiple applications/domains and can be easily integrated with other knowledge engineering tools such as, e.g., ROS-TiPlEx and Planning and Scheduling software framework, e.g., PLATINUm.
-
-### Gallery
-
-<img src="img/Resources_full.png" width="23%"></img> <img src="img/Resource_add.png" width="23%"></img> <img src="img/Res_hw.png" width="23%"></img> <img src="img/Res_cobot.png" width="23%"></img> <img src="img/Products.png" width="23%"></img> <img src="img/Process.png" width="23%"></img> <img src="img/Demands.png" width="23%"></img> 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
@@ -55,7 +46,6 @@ Tool fostEriNg Ai plaNning in roboTics Stand-Alone (__TENANT__) is a general pur
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 __TENANT__ is a software that allows you to **simplify** the following operations:
@@ -100,7 +90,12 @@ Open to the following address with any browser to use the software.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ROADMAP -->
+## Gallery
+
+<img src="img/Resources_full.png" width="23%"></img> <img src="img/Resource_add.png" width="23%"></img> <img src="img/Res_hw.png" width="23%"></img> <img src="img/Res_cobot.png" width="23%"></img> <img src="img/Products.png" width="23%"></img> <img src="img/Process.png" width="23%"></img> <img src="img/Demands.png" width="23%"></img> 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Roadmap
 
 - [ ] Aggiungere cose alla roadmap :P
