@@ -17,6 +17,9 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#gallery">Images</a></li>
+      </ul>
+      <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -39,6 +42,12 @@
 ![TENANT Home](img/Home.png)
 
 Tool fostEriNg Ai plaNning in roboTics Stand-Alone (__TENANT__) is a general purpose software tool that can be deployed for addressing multiple applications/domains and can be easily integrated with other knowledge engineering tools such as, e.g., ROS-TiPlEx and Planning and Scheduling software framework, e.g., PLATINUm.
+
+### Gallery
+
+<img src="img/Resources_full.png" width="23%"></img> <img src="img/Resource_add.png" width="23%"></img> <img src="img/Res_hw.png" width="23%"></img> <img src="img/Res_cobot.png" width="23%"></img> <img src="img/Products.png" width="23%"></img> <img src="img/Process.png" width="23%"></img> <img src="img/Demands.png" width="23%"></img> 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
