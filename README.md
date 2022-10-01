@@ -2,11 +2,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="img/Sharework_logo_color.png" alt="Logo" width="300" height="100">
-  </a>
-
-  <h3 align="center">TENANT - Tool fostEriNg Ai plaNning in roboTics Stand-Alone</h3>
+  <h1 align="center">TENANT - Tool fostEriNg Ai plaNning in roboTics Stand-Alone</h3>
 </div>
 
 <details>
@@ -26,9 +22,6 @@
       </ul>
     </li>
     <li>
-      <a href="#roadmap">Roadmap</a>
-    </li>
-    <li>
       <a href="#gallery">Images</a>
     </li>
   </ol>
@@ -38,7 +31,9 @@
 
 ![TENANT Home](img/Home.png)
 
-Tool fostEriNg Ai plaNning in roboTics Stand-Alone (__TENANT__) is a general purpose software tool that can be deployed for addressing multiple applications/domains and can be easily integrated with other knowledge engineering tools such as, e.g., ROS-TiPlEx and Planning and Scheduling software framework, e.g., [PLATINUm](https://github.com/pstlab/PLATINUm).
+__TENANT__ (Tool fostEriNg Ai plaNning in roboTics) is a software tool that facilitates domain experts in defining goals, tasks and a set operational constraints enabling the automatic generation of planning models for robot control. 
+
+TENANT is validated in an industrial collaborative scenario derived from a EU-funded research project demonstrating its effectiveness in generating automated planning models to control a collaborative robot.
 
 ### Built With
 
@@ -69,30 +64,33 @@ In order to run the software, follow the instructions below
    git clone https://github.com/pstlab/TENANT_sa.git
    cd ./TENANT_sa
    ```
-2. Create a virtual environment with virtualenv and activate it (**only if you want use virtualenv**)
+2. To fill the database with toy scenarios run (__not required__)
+   ```sh
+   python init_db.py
+   # or
+   python init_cembre.py
+   ```
+3. To initialize operator functions with a set of operations common to industrial systems run (__not required__)
+   ```sh
+   python taxonomy_functions.py
+   ```
+4. Create a virtual environment with virtualenv and activate it (**only if you want use virtualenv**)
    ```sh
    python -m pip install virtualenv
    python -m venv env
    source ./env/bin/activate
    ```
    * To **deactivate** the virtual environment use the command `deactivate`
-3. Install the requirements contained in `requirements.txt`
+5. Install the requirements contained in `requirements.txt`
    ```sh
    python -m pip install -r ./requirements.txt
    ```
-4. Init the database and run the server
-   ```
-   python ./init_db.py
+6. Run the server
+   ```sh
    python ./run.py
    ```
 A local server will be started at `http://127.0.0.1:5000/`.
 Open to the following address with any browser to use the software.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Roadmap
-
-- [ ] Aggiungere cose alla roadmap :P
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
