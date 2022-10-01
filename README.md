@@ -64,26 +64,26 @@ In order to run the software, follow the instructions below
    git clone https://github.com/pstlab/TENANT_sa.git
    cd ./TENANT_sa
    ```
-2. To fill the database with toy scenarios run (__not required__)
-   ```sh
-   python init_db.py
-   # or
-   python init_cembre.py
-   ```
-3. To initialize operator functions with a set of operations common to industrial systems run (__not required__)
-   ```sh
-   python taxonomy_functions.py
-   ```
-4. Create a virtual environment with virtualenv and activate it (**only if you want use virtualenv**)
+2. Create a virtual environment with virtualenv and activate it (**only if you want use virtualenv**)
    ```sh
    python -m pip install virtualenv
    python -m venv env
    source ./env/bin/activate
    ```
    * To **deactivate** the virtual environment use the command `deactivate`
-5. Install the requirements contained in `requirements.txt`
+3. Install the requirements contained in `requirements.txt`
    ```sh
    python -m pip install -r ./requirements.txt
+   ```
+4. To fill the database with toy scenarios run (__not required__)
+   ```sh
+   python init_db.py
+   # or
+   python init_cembre.py
+   ```
+5. To initialize operator functions with a set of operations common to industrial systems run (__not required__)
+   ```sh
+   python taxonomy_functions.py
    ```
 6. Run the server
    ```sh
