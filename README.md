@@ -83,7 +83,7 @@ Open to the following address with any browser to use the software.
 
 ## Gallery
 
-<img src="img/Resources_full.png" width="23%"></img> <img src="img/Resource_add.png" width="23%"></img> <img src="img/Res_hw.png" width="23%"></img> <img src="img/Res_cobot.png" width="23%"></img> <img src="img/Products.png" width="23%"></img> <img src="img/Process.png" width="23%"></img> <img src="img/Demands.png" width="23%"></img> 
+<img src="img/hom.png" width="18%"></img> <img src="img/resources.png" width="18%"></img> <img src="img/new_resource.png" width="18%"></img> <img src="img/aggregate_resource.png" width="18%"></img> <img src="img/products.png" width="18%"></img> <img src="img/new_product.png" width="18%"></img> <img src="img/product_family.png" width="18%"></img> <img src="img/process.png" width="18%"></img> <img src="img/new_process.png" width="18%"></img> <img src="img/demands.png" width="18%"></img> 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
