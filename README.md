@@ -1,31 +1,18 @@
 <a name="readme-top"></a>
-
-<br />
 <div align="center">
-  <h1 align="center">TENANT - Tool fostEriNg Ai plaNning in roboTics Stand-Alone</h3>
+  <h1 align="center">TENANT</h1>
+  <h3 align="center">Tool fostEriNg Ai plaNning in roboTics Stand-Alone</h3>
 </div>
+</br>
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation-and-run">Installation and Run</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#gallery">Images</a>
-    </li>
-  </ol>
-</details>
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation and Run](#installation-and-run)
+- [Gallery](#gallery)
 
 ## About The Project
 
@@ -77,13 +64,13 @@ In order to run the software, follow the instructions below
    ```
 4. To fill the database with toy scenarios run (__not required__)
    ```sh
-   python init_db.py
+   python ./init_db.py
    # or
-   python init_cembre.py
+   python ./init_cembre.py
    ```
 5. To initialize operator functions with a set of operations common to industrial systems run (__not required__)
    ```sh
-   python taxonomy_functions.py
+   python ./taxonomy_functions.py
    ```
 6. Run the server
    ```sh
